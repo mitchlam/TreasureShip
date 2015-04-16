@@ -15,6 +15,7 @@
 		4640DD1E1AE0272700A58C61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4640DD1D1AE0272700A58C61 /* Images.xcassets */; };
 		4640DD211AE0272700A58C61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4640DD1F1AE0272700A58C61 /* LaunchScreen.xib */; };
 		4640DD2D1AE0272700A58C61 /* TreasureShipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4640DD2C1AE0272700A58C61 /* TreasureShipTests.swift */; };
+		469FE9D51AE066CD000B92A6 /* Ideas in Resources */ = {isa = PBXBuildFile; fileRef = 469FE9D41AE066CD000B92A6 /* Ideas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		4640DD261AE0272700A58C61 /* TreasureShipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreasureShipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4640DD2B1AE0272700A58C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4640DD2C1AE0272700A58C61 /* TreasureShipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureShipTests.swift; sourceTree = "<group>"; };
+		469FE9D41AE066CD000B92A6 /* Ideas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ideas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		4640DD041AE0272700A58C61 = {
 			isa = PBXGroup;
 			children = (
+				469FE9D41AE066CD000B92A6 /* Ideas */,
 				4640DD0F1AE0272700A58C61 /* TreasureShip */,
 				4640DD291AE0272700A58C61 /* TreasureShipTests */,
 				4640DD0E1AE0272700A58C61 /* Products */,
@@ -201,6 +204,7 @@
 				4640DD211AE0272700A58C61 /* LaunchScreen.xib in Resources */,
 				4640DD1E1AE0272700A58C61 /* Images.xcassets in Resources */,
 				4640DD151AE0272700A58C61 /* GameScene.sks in Resources */,
+				469FE9D51AE066CD000B92A6 /* Ideas in Resources */,
 				4640DD1C1AE0272700A58C61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +421,7 @@
 				4640DD321AE0272700A58C61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4640DD331AE0272700A58C61 /* Build configuration list for PBXNativeTarget "TreasureShipTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +430,7 @@
 				4640DD351AE0272700A58C61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
