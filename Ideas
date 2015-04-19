@@ -6,25 +6,25 @@ We should put our ideas about what we want to do and how we want to make it here
 ************************************************************************************
 
 Gameplay:
-Goal: Capture the flag.
-Turn based
+    Goal: Capture the flag.
+    Turn based
 
 Map:
-Real valued positions
-Flag is hidden somewhere.
+    Real valued positions
+    Flag is hidden somewhere.
 
 Ships:
-Can move some distance per day.
-Can specify a patrol or a path for the ship to take.
+    Can move some distance per day.
+    Can specify a patrol or a path for the ship to take.
 
-Ships have an amount of health
-health affects how far ships can move/how much damage they can do
+    Ships have an amount of health
+    health affects how far ships can move/how much damage they can do
 
-Fighting:
-Ships have a number of fighting 'dice'
-Larger ships have more dice.
-health affects number of dice.
+    Fighting:
+        Ships have a number of fighting 'dice'
+        Larger ships have more dice.
+        health affects number of dice.
 
-Low health ships can be captured.
+        Low health ships can be captured.
 
 
