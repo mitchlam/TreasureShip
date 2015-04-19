@@ -7,11 +7,14 @@ We should put our ideas about what we want to do and how we want to make it here
 
 Gameplay:
 Goal: Capture the flag.
-Turn based
+    Do we want a single flag - or multiple units like gold pieces?
+Turn based - everyone makes a move, and once everyone has submitted the server returns a result
 
 Map:
 Real valued positions
 Flag is hidden somewhere.
+Do we want islands - limit the places to hide the flag?
+Do we want to add other obstacles, such as sea monsters later?
 
 Ships:
 Can move some distance per day.
@@ -20,11 +23,26 @@ Can specify a patrol or a path for the ship to take.
 Ships have an amount of health
 health affects how far ships can move/how much damage they can do
 
+Ships path determined by drawing it on the sceen?
+Can a path be canceled if a turn lands part way through it?
+
 Fighting:
 Ships have a number of fighting 'dice'
 Larger ships have more dice.
 health affects number of dice.
 
 Low health ships can be captured.
+
+Risk/CIV style fighting - first encounter automatic - one attack each when they meet.
+Then players have a choice - run or attack.
+
+Game start:
+Each player given regions where they can set their flags and ships to start
+
+Is flag location fixed?  or can it be moved by the player by ship during gameplay?
+
+Game end:
+You capture the enemies flag and bring it safely back to your base/flag
+
 
 
