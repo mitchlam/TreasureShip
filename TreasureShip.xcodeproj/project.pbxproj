@@ -16,6 +16,7 @@
 		4640DD211AE0272700A58C61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4640DD1F1AE0272700A58C61 /* LaunchScreen.xib */; };
 		4640DD2D1AE0272700A58C61 /* TreasureShipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4640DD2C1AE0272700A58C61 /* TreasureShipTests.swift */; };
 		469FE9D51AE066CD000B92A6 /* Ideas in Resources */ = {isa = PBXBuildFile; fileRef = 469FE9D41AE066CD000B92A6 /* Ideas */; };
+		58A1F7D11AE3C8ED005CE4CE /* Class Design in Resources */ = {isa = PBXBuildFile; fileRef = 58A1F7D01AE3C8ED005CE4CE /* Class Design */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		4640DD2B1AE0272700A58C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4640DD2C1AE0272700A58C61 /* TreasureShipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureShipTests.swift; sourceTree = "<group>"; };
 		469FE9D41AE066CD000B92A6 /* Ideas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ideas; sourceTree = "<group>"; };
+		58A1F7D01AE3C8ED005CE4CE /* Class Design */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Class Design"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				469FE9D41AE066CD000B92A6 /* Ideas */,
+				58A1F7D01AE3C8ED005CE4CE /* Class Design */,
 				4640DD0F1AE0272700A58C61 /* TreasureShip */,
 				4640DD291AE0272700A58C61 /* TreasureShipTests */,
 				4640DD0E1AE0272700A58C61 /* Products */,
@@ -201,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58A1F7D11AE3C8ED005CE4CE /* Class Design in Resources */,
 				4640DD211AE0272700A58C61 /* LaunchScreen.xib in Resources */,
 				4640DD1E1AE0272700A58C61 /* Images.xcassets in Resources */,
 				4640DD151AE0272700A58C61 /* GameScene.sks in Resources */,
