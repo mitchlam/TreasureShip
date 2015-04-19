@@ -1,0 +1,28 @@
+Ships:
+
+- Fields:
+- - Health
+- - Max speed
+- - Max attack
+- - Has flag
+- - Action (Heal, Patrol, Battle, etc.)
+
+- Methods:
+- - Defend(Opposing Attack)
+- - Attack(Health)
+- - Calculate Speed(Health)
+
+
+
+Player:
+
+- Fields:
+
+- Methods:
+
+
+Map:
+
+- Fields:
+
+- Methods:
