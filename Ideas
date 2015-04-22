@@ -17,11 +17,11 @@ Do we want islands - limit the places to hide the flag?
 Do we want to add other obstacles, such as sea monsters later?
 
 Ships:
-Can move some distance per day.
-Can specify a patrol or a path for the ship to take.
+    Can move some distance per day.
+    Can specify a patrol or a path for the ship to take.
 
-Ships have an amount of health
-health affects how far ships can move/how much damage they can do
+    Ships have an amount of health
+    health affects how far ships can move/how much damage they can do
 
 Ships path determined by drawing it on the sceen?
 Can a path be canceled if a turn lands part way through it?
@@ -31,7 +31,7 @@ Ships have a number of fighting 'dice'
 Larger ships have more dice.
 health affects number of dice.
 
-Low health ships can be captured.
+        Low health ships can be captured.
 
 Risk/CIV style fighting - first encounter automatic - one attack each when they meet.
 Then players have a choice - run or attack.
