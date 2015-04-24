@@ -2,16 +2,13 @@ Ships:
 
 - Fields:
 - - Health
-- - Max speed
-- - Max attack
-- - Has flag
-- - Action (Heal, Patrol, Battle, etc.)
+- - (double, double) : Location
+- - Orientation
+- - Player : Owner
 
 - Methods:
-- - Defend(Opposing Attack)
-- - Attack(Health)
-- - Calculate Speed(Health)
-
+- - Attack(Circle) -> Bool :check for intersection with attack returns true if was hit at all
+- - - If we use the SpriteKit physics engine, we might be able to get this for free.
 
 
 Player:
@@ -22,6 +19,15 @@ Player:
 
 
 Map:
+
+- Fields:
+- - Ships[] :Ships in map
+- - (Double,Double)[] :Spots fired at, or should the Player keep track of this?
+- - Player : owner of map, might be needed for determining whether to show a ship or not.
+
+- Methods:
+
+Game:
 
 - Fields:
 
