@@ -8,43 +8,60 @@ We should put our ideas about what we want to do and how we want to make it here
 Testing
 
 Gameplay:
-Goal: Capture the flag.
-    Do we want a single flag - or multiple units like gold pieces?
-Turn based - everyone makes a move, and once everyone has submitted the server returns a result
+    Goal: Sink all enemy ships - Basic Battleship
+    Players take turn picking a point in the enemy space. That point explodes. Any ship in the radius takes damage.
+
 
 Map:
-Real valued positions
-Flag is hidden somewhere.
-Do we want islands - limit the places to hide the flag?
-Do we want to add other obstacles, such as sea monsters later?
+    Real valued positions
+
+    perhaps one for each player containing their ships, perhaps either another for their attacks, but I think we just use an overlay. -- For later version, we might want to include multiple opponents.
+
+    Viewed through a camera view.
+        Will enable us to target any size screen.
+        enables panning, and zoom
 
 Ships:
-    Can move some distance per day.
-    Can specify a patrol or a path for the ship to take.
+    When hit, a portion of their ship is "covered" by the explosion. That part becomes damage. When some percent of the ship is damaged, the ship dies. You cannot damage the same portion twice.
 
-    Ships have an amount of health
-    health affects how far ships can move/how much damage they can do
+    ships are static.
+    They are placed at the beginning of the game.
 
-Ships path determined by drawing it on the sceen?
-Can a path be canceled if a turn lands part way through it?
 
-Fighting:
-Ships have a number of fighting 'dice'
-Larger ships have more dice.
-health affects number of dice.
+Turn:
+    Start by showing the player what happened before the turn. i.e. shots fired, ships hit/sunk
+    Show the player the targeting board.
+        -- inlcude past shots here. Player should be able to see misses and hits.
+    Allow the player to Fire some number of shots at opponent
+    Pass turn to other player
 
-        Low health ships can be captured.
+Firing:
+    Select a spot.
+    Explosion.
+    If the explosion makes contact with an enemy ship, the explosion is marked.
+        I think we want to mark the entire explosion.
+        I dont think we want to inform the player about how much was hit or what was hit. Just that it was.
+    Turn switches to other player.
+        -- We might consider allowing multiple shots per turn.
 
-Risk/CIV style fighting - first encounter automatic - one attack each when they meet.
-Then players have a choice - run or attack.
+Multiplayer:
+    Use Gamecenter API to pass turns online.
+    We will need a Match object to describe the current game.
+    On their turn, a player will download the Match object, update it with their turn, and push it back.
+        We might want to use a similar approach for offline to make things consistent in the code.
+
+    Player can potentially be playing multiple games at once.
 
 Game start:
-Each player given regions where they can set their flags and ships to start
+    Each player must place all of their ships
 
-Is flag location fixed?  or can it be moved by the player by ship during gameplay?
 
 Game end:
-You capture the enemies flag and bring it safely back to your base/flag
+    A player's ships are all destroyed
 
+
+Money:
+    iAds
+    I think we should either put a banner in the game, or display a full screen ad every so many rounds. Something small to earn a little bit of money from, but nothing too annoying.
 
 
