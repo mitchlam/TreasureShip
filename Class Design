@@ -27,7 +27,7 @@ Map:
 
 - Methods:
 
-Game:
+Game: Should be modular enough to resume specific games
 
 - Fields:
 
